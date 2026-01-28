@@ -66,7 +66,7 @@ const Table = () => {
 
   return (
     <div className="bg-[#111B3B] rounded-2xl w-full max-w-[1440px] mx-auto">
-      {/* Rwlative r avsolute dia kaj hoice */}
+      {/* Relative r absolute dia kaj hoice */}
       <div className="relative overflow-x-auto overflow-y-auto h-[420px] w-full rounded-2xl border border-[#162F61]">
         <table className="absolute top-0 min-w-[1200px] w-full border-collapse text-left text-slate-300 bg-[#111B3B]">
           <thead className="sticky top-0 z-10 bg-[#111B3B]">

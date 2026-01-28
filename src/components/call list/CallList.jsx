@@ -5,7 +5,7 @@ import tick from "../../assets/tick.png";
 
 const CallList = () => {
   return (
-    <div className="bg-[#0F172B]/50 p-6 rounded-2xl border border-[#2B7FFF]/20">
+    <div className="bg-[#0F172B]/50 p-4 md:p-6 rounded-2xl border border-[#2B7FFF]/20">
           <p className="text-white text-xl mb-4">Call List</p>
           <div className="space-y-4 border-b-2 my-4 border-b-[#2B7FFF]">
             <div className="flex justify-between items-start">

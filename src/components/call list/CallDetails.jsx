@@ -5,7 +5,7 @@ import pdf from '../../assets/pdf.png'
 const CallDetails = () => {
   return (
     <>
-          <div className="bg-[#0F172B]/50 p-6 rounded-2xl border border-[#2B7FFF]/20">
+          <div className="bg-[#0F172B]/50 p-4 md:p-6 rounded-2xl border border-[#2B7FFF]/20">
             <p className="text-white text-xl mb-4">Call Details</p>
             <div className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
@@ -14,16 +14,16 @@ const CallDetails = () => {
                   <p className="text-sm text-white">+1 (555) 123-4567</p>
                 </div>
                 <div className='space-y-1'>
-                  <p className="text-sm text-[#90A1B9]">Phone Number</p>
-                  <p className="text-sm text-white">+1 (555) 123-4567</p>
+                  <p className="text-sm text-[#90A1B9]">Duration</p>
+                  <p className="text-sm text-white">4:32</p>
                 </div>
                 <div className='space-y-1'>
-                  <p className="text-sm text-[#90A1B9]">Phone Number</p>
-                  <p className="text-sm text-white">+1 (555) 123-4567</p>
+                  <p className="text-sm text-[#90A1B9]">Date & Time</p>
+                  <p className="text-sm text-white">2025-12-16 10:45 AM</p>
                 </div>
                 <div className='space-y-1'>
-                  <p className="text-sm text-[#90A1B9]">Phone Number</p>
-                  <p className="text-sm text-white">+1 (555) 123-4567</p>
+                  <p className="text-sm text-[#90A1B9]">Issue Type</p>
+                  <p className="text-sm text-white">Screen</p>
                 </div>
               </div>
               <div>

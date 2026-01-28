@@ -10,7 +10,7 @@ const Layout = () => {
       <Sidebar />
       <div className="flex-1">
         <Header />
-        <main className="p-6 min-h-[calc(100vh)] bg-linear-to-tl from-[#111B3C] via-[#162456] to-[#111B3C]">
+        <main className="p-4 md:p-6 min-h-[calc(100vh)] bg-linear-to-tl from-[#111B3C] via-[#162456] to-[#111B3C]">
           <Outlet />
         </main>
       </div>
