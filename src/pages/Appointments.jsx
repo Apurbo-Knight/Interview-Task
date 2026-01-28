@@ -5,12 +5,11 @@ import Table from "../components/appointment/Table";
 
 const Appointments = () => {
   return (
-    <div className="space-y-6 min-w-0">
+    <div className="space-y-6">
       <AppCards />
       <BookingLink />
-      <div className="overflow-auto">
       <Table />
-      </div>
+      
     </div>
   );
 };
