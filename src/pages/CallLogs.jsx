@@ -9,10 +9,9 @@ const CallLogs = () => {
     <div className="space-y-6">
       <Search />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* left part */}
         <CallList />
-        {/* right part */}
-        <CallDetails/>
+
+        <CallDetails />
       </div>
     </div>
   );
